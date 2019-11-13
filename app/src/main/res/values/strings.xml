@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cadastro</string>
+    <string name="title_activity_login">ActivityLogin</string>
+    <string name="seu_cpf">Seu CPF é :</string>
+    <string name="ola_prezado">Olá Prezado(a):</string>
+    <string name="sua_senha">Sua senha é :</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="senha">Senha</string>
+    <string name="cpf">CPF</string>
+    <string name="nome">Nome</string>
+    <string name="ola_seu_login">Olá, seu Login é:</string>
+    <string name="seu_nome">Seu nome é:</string>
+    <string name="ola">Olá -</string>
+    z
+
+</resources>
