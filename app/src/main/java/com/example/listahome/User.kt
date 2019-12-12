@@ -1,5 +1,7 @@
 package com.example.listahome
 
-class User (val name: String) {
+data class User (val login: String, val senha: String, val email: String, val cpf: String, val diaSemana: String) {
+
+
 
 }

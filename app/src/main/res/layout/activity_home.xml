@@ -6,22 +6,33 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:layout_weight="2"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="413dp"
+        android:layout_height="360dp"
+        android:src="@mipmap/ic_launcher_flylibrarycerto"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:text="FLY-LIBRARY"
+        android:textSize="30dp"
+        android:textColor="@color/colorTextHome"/>
+
 
 
     <LinearLayout
-        android:layout_width="405dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:orientation="vertical">
-
-
-        <ImageView
-            android:layout_width="165dp"
-            android:layout_height="167dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="150dp"
-            android:src="@mipmap/ic_launcher_flylibrarycerto" />
+        android:layout_width="413dp"
+        android:layout_height="360dp"
+        android:layout_marginTop="370dp"
+        android:orientation="vertical"
+        >
 
 
         <Button
@@ -29,11 +40,11 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
             android:background="@color/ButtonColor"
             android:text="@string/login"
             android:textColor="@color/textColor"
-            android:textSize="17dp"
-            android:layout_marginTop="20dp"/>
+            android:textSize="17dp" />
 
         <Button
             android:id="@+id/buttonCadastro"
@@ -46,6 +57,7 @@
             android:textColor="@color/textColor"
             android:textSize="17dp" />
 
-
     </LinearLayout>
+
+
 </FrameLayout>

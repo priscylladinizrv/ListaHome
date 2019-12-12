@@ -8,12 +8,20 @@
     <string name="login">Login</string>
     <string name="cancel">Cancel</string>
     <string name="ok">Ok</string>
+    <string name="registrar">Registrar</string>
     <string name="senha">Senha</string>
     <string name="cpf">CPF</string>
-    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
     <string name="ola_seu_login">Olá, seu Login é:</string>
     <string name="seu_nome">Seu nome é:</string>
     <string name="ola">Olá -</string>
-    z
+    <string-array name="weekList">
+        <item>Segunda-Feira</item>
+        <item>Terça-Feira</item>
+        <item>Quarta-Feira</item>
+        <item>Quinta-Feira</item>
+        <item>Sexta-Feira</item>
+    </string-array>
+
 
 </resources>

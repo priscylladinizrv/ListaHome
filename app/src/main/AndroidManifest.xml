@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".DatabaseUsuario"></activity>
+        <activity android:name=".Database" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".cadastroContinuation" />
         <activity android:name=".Registro" />
         <activity android:name=".LoginContinuation" />

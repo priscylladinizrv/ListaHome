@@ -15,7 +15,13 @@
         android:hint=" "
         android:inputType="text" />
 
-  <LinearLayout
+    <Spinner
+        android:id="@+id/picklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/weekList"/>
+
+    <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:orientation="horizontal">
@@ -35,4 +41,5 @@
         android:text="CANCEL"
         />
 </LinearLayout>
+
 </LinearLayout>
